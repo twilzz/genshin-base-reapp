@@ -6,8 +6,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+nav {
+  padding: 0 1rem;
+}
+.content {
+  min-height: calc(100vh - 64px - 70px);
+  padding: 1.5rem 0;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card .card-content{
+  padding: 10px;
+}
+
+.card-image{
+  margin-left: 5px;
+  width: 200px;
+  height: 200px;
+}
+.card-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.card-info{
+  padding-left: 10px;
+}
+
+.radio-vision{
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid black;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 1rem;
 }
