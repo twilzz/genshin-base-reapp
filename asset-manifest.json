@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/genshin-base-reapp/static/css/main.4e88b533.chunk.css",
+    "main.js": "/genshin-base-reapp/static/js/main.1d826fae.chunk.js",
+    "main.js.map": "/genshin-base-reapp/static/js/main.1d826fae.chunk.js.map",
+    "runtime-main.js": "/genshin-base-reapp/static/js/runtime-main.a5a2b7bf.js",
+    "runtime-main.js.map": "/genshin-base-reapp/static/js/runtime-main.a5a2b7bf.js.map",
+    "static/js/2.4cfb8ff6.chunk.js": "/genshin-base-reapp/static/js/2.4cfb8ff6.chunk.js",
+    "static/js/2.4cfb8ff6.chunk.js.map": "/genshin-base-reapp/static/js/2.4cfb8ff6.chunk.js.map",
+    "index.html": "/genshin-base-reapp/index.html",
+    "static/css/main.4e88b533.chunk.css.map": "/genshin-base-reapp/static/css/main.4e88b533.chunk.css.map",
+    "static/js/2.4cfb8ff6.chunk.js.LICENSE.txt": "/genshin-base-reapp/static/js/2.4cfb8ff6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5a2b7bf.js",
+    "static/js/2.4cfb8ff6.chunk.js",
+    "static/css/main.4e88b533.chunk.css",
+    "static/js/main.1d826fae.chunk.js"
+  ]
+}
