@@ -7,7 +7,7 @@ function Footer(props) {
           <div className="container">
             <div className="footer-wrapper">
             © {new Date().getFullYear()} Сладков Алексей
-          <a className="waves-effect green btn" href="https://genshinlist.com/developer-api">
+          <a className="waves-effect green btn" href="https://github.com/twilzz/genshin-base-reapp">
                     Github</a>
             </div>
          
