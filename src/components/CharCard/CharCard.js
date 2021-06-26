@@ -4,7 +4,7 @@ function CharCard(props) {
   const { name, gender, vision, description } = props.data;
 
   return (
-    <div className="col l4 m6 s12">
+
       <div className="card">
       <h5>{name}</h5>
       <div className='card-wrapper'>     
@@ -21,7 +21,6 @@ function CharCard(props) {
         <a href="/#">Подробнее</a>
       </div>
       </div>
-    </div>
   );
 }
 

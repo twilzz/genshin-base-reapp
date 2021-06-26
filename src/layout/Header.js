@@ -1,15 +1,14 @@
 import React from 'react';
+import logo from './img/logo.png';
 
 function Header(props) {
     return (
-              <nav className="green lighten-2">
+              <nav className="nav-bar green lighten-2">
                 <div className="nav-wrapper">
-                <a href="/#" className="brand-logo">Logo</a>
-                <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                </ul>
+                <img alt="logo" src={logo}/>
+                Браузер по базе игры Genshin Impact написанный на основе неофициального API
+                <a className="waves-effect green btn" href="https://genshinlist.com/developer-api">
+                    GenshinList API</a>
                 </div>
             </nav>
     );

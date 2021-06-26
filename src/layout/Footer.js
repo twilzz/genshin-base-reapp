@@ -5,8 +5,12 @@ function Footer(props) {
         <footer className="page-footer green lighten-3">
         <div className="footer-copyright">
           <div className="container">
-          © {new Date().getFullYear()} Copyright Text
-          <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <div className="footer-wrapper">
+            © {new Date().getFullYear()} Сладков Алексей
+          <a className="waves-effect green btn" href="https://genshinlist.com/developer-api">
+                    Github</a>
+            </div>
+         
           </div>
         </div>
       </footer>

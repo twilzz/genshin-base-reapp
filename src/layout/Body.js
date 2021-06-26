@@ -35,7 +35,7 @@ class Body extends Component {
         if (search.length === 0) {
             return characters;
         } 
-            return characters.filter(char => char.name.indexOf(search) > -1)
+            return characters.filter(char => char.name.toLowerCase().indexOf(search.toLowerCase()) > -1)
         }
 
     onFilterUpdater = (searchPanelFilter) => {
