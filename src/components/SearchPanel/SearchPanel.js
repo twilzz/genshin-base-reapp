@@ -1,22 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
-class SearchPanel extends Component {
-  updateHandler = (event) => {
-    this.props.search(event.target.value);
+const SearchPanel = (props) => {
+  const updateHandler = (event) => {
+    props.search(event.target.value);
   };
-  radioHandler = (e) => {
-    this.props.filter(e.target.value);
+  const radioHandler = (e) => {
+    props.filter(e.target.value);
   };
 
-  render() {
-    return (
+  return (
       <div className="row">
         <div className="input-field col s12">
           <input
             type="search"
             className="validate"
             placeholder='Поиск. Например "Diluc"'
-            onChange={this.updateHandler}
+            onChange={updateHandler}
           />
         </div>
         <div className=" col s12">
@@ -25,7 +24,7 @@ class SearchPanel extends Component {
               name="vision"
               type="radio"
               value="Все"
-              onChange={this.radioHandler}
+              onChange={radioHandler}
             />
             <span>Все</span>
           </label>
@@ -34,7 +33,7 @@ class SearchPanel extends Component {
               name="vision"
               value="pyro"
               type="radio"
-              onChange={this.radioHandler}
+              onChange={radioHandler}
             />
             <span>Pyro</span>
           </label>
@@ -43,7 +42,7 @@ class SearchPanel extends Component {
               name="vision"
               value="anemo"
               type="radio"
-              onChange={this.radioHandler}
+              onChange={radioHandler}
             />
             <span>Anemo</span>
           </label>
@@ -52,7 +51,7 @@ class SearchPanel extends Component {
               name="vision"
               value="electro"
               type="radio"
-              onChange={this.radioHandler}
+              onChange={radioHandler}
             />
             <span>Electro</span>
           </label>
@@ -61,7 +60,7 @@ class SearchPanel extends Component {
               name="vision"
               value="hydro"
               type="radio"
-              onChange={this.radioHandler}
+              onChange={radioHandler}
             />
             <span>Hydro</span>
           </label>
@@ -70,14 +69,13 @@ class SearchPanel extends Component {
               name="vision"
               value="cryo"
               type="radio"
-              onChange={this.radioHandler}
+              onChange={radioHandler}
             />
             <span>Cryo</span>
           </label>
         </div>
       </div>
     );
-  }
 }
 
 export default SearchPanel;
